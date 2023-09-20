@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://clp8f3bfscsuh"]
+
+[ext_resource type="Script" path="res://creature.gd" id="1_7luft"]
+[ext_resource type="Texture2D" uid="uid://hhnwnw8bicgm" path="res://icon.svg" id="2_ofubu"]
+
+[node name="creature" type="Node2D"]
+script = ExtResource("1_7luft")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_ofubu")
+
+[node name="HP" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="SHIELD" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
